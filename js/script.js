@@ -43,7 +43,7 @@ function updateSlider(){
 function copyPassword(){
     navigator.clipboard.writeText(passwordInput.value);
 }
-const upadatePassIndicator = () => {
+function  upadatePassIndicator() {
 
     if(lengthSlider.value <= 8 ){
         passIndicator.id = "weak";
